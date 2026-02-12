@@ -35,7 +35,9 @@
 </head>
 <body>
     <img id="image" src="./sources/image1.gif" alt="Imagen">
-    <p id="text">Hola mi amor, sé que ha pasado tiempo desde que estoy lejos de casita, pero te necesito y me haces muy feliz. Te hago este pequeño detalle porque por fin tuve tiempo jaja y porque te amo muchísimo. Quiero decirte que te amo demasiado, demasiado mi amor!
+    <p id="text">Helo my sexy precious girl, hoy es un dia muy especial para nosotros 2 porque hemos cumplido otro mes mas estando comprometidos y en unos dias mas tambien cumpliremos otro mes de novios jejeje, entonces queria agradecerte por todo lo que haces por mi, lo mucho que me haces feliz y lo mucho que me hace feliz estar haciendo pijamadas contigo, en ti siento calor, tranquilidad y mucha alegria, puedo sentir demasiada paz estando a tu lado que siempre caido dormido en 5 segundos, es algo que no puedo hacer ni estando super cansado... 
+
+        Me hace feliz que poco a poco vayamos cumpliendo nuestros sueños, por fin estamos comprometidos, ahora tambien estamos por casarnos y comprar una casa, ya conocimos Islandia y encontramos la pasion del Hiking, algo que nos esta gustando muchisimo... TE AMO MI AMOR, te amo por todo lo que eres, por todo lo que das y por todo lo que representas en mi vida... queria preguntarte...
     </p>
     <button id="next">Siguiente</button>
     <div id="question" style="display: none;">
@@ -50,13 +52,9 @@
     </div>
     <script>
         const texts = [
-            "Hola mi amor, sé que ha pasado tiempo desde que estoy lejos de casita, pero te necesito y me haces muy feliz. Te hago este pequeño detalle porque por fin tuve tiempo jaja y porque te amo muchísimo. Quiero decirte que te amo demasiado, demasiado mi amor!"
-            , "Quiero pedirte perdón también por estar tan lejos y sobre todo cuando se acercan 2 fechas importantes, el 14 y el 16 de febrero. Pero no importa, la distancia no quitara que te demuestre lo mucho que te amo!"
-            , "He estado contigo ya casi 4 años, ya falta muy poquito... y quiero decirte que mi vida jamás tendría sentido sin ti, que me haces inmensamente feliz y que siempre siempre estaré a tu lado. TÚ Y YO JUNTOS SIEMPRE EN ESTA VIDA."
-            , "Tenemos sueños y metas por cumplir, pero también tenemos sueños y metas que ya cumplimos. TE AMO TE AMO TE AMO, espero tengas una sonrisita ahorita mismo. Pronto regreso, pero quiero hacerte una preguntita coqueta..."
-        ];
-        const images = ["./sources/image1.gif", "./sources/image2.gif", "./sources/image3.gif", "./sources/image4.gif"];
-        const sadImages = ["./sources/sad1.gif", "./sources/sad2.gif", "./sources/sad3.gif", "./sources/sad4.gif", "./sources/sad5.gif", "./sources/sad6.gif", "./sources/sad7.gif"];
+            ];
+        const images = ["./sources/image1.gif"];
+        const sadImages = ["./sources/sad1.gif", "./sources/sad2.gif", "./sources/sad3.gif"];
         let index = 0;
         let sadIndex = 0;
         
@@ -74,31 +72,17 @@
             }
         });
         
-        const noResponses = ["¿Segura que no? :(", "¿De verdad?", "¿Estás completamente segura?", "Haz click en el si!!", "No te pases de lanza", "Ándale, ya dale click en el SIIII", "Ya no me quieres? :'(", "Pedorra"
-            , "¿Estás 100% segura?",
-            "Vuelve a pensarlo bien 🥺",
-            "No me rompas el corazón 💔",
-            "¿Y si te arrepientes después?",
-            "¿Me estás bromeando? 👀",
-            "No seas mala, di que sí 😢",
-            "Yo que te quería invitar a algo bonito...",
-            "Te voy a dar otra oportunidad para decir que sí 😏",
-            "Voy a fingir que no vi eso e intentar de nuevo 🙈",
-            "¡Pero si ya tenía todo planeado! 😭",
-            "Piénsalo otra vez, a ver si cambias de opinión 💕",
-            "¿Te cae? ¿Neta neta neta mi reina?",
-            "Eso dolió más que la muerte de Hodor 😭",
-            "No juegues con mis sentimientos 😢",
-            "Si le das otra vez al 'No', se viene mi muerteee...",
-            "Voy a hacer como que no vi eso, inténtalo otra vez 🙃",
-            "Ok, me voy a mi rincón a llorar... 😢",
-            "¿Y si mejor dices que sí? 😌",
-            "Si dices que sí, te invito algo rico 🍫🍕",
-            "Oye... esto no era parte del plan 😦",
-            "Piénsalo otra vez... con amor esta vez ❤️",
-            "Te voy a dar una última oportunidad, eh 😏",
-            "Me ofendería... si no te amara tanto 🥰",
-            "Esto no se acaba hasta que digas que sí 😌"
+        const noResponses = [
+            "dale que si mi amor",
+            "no seas culito",
+            "andalesss please culis",
+            "mmmm ya no me amas? dale que siiii",
+            "si le vuelves a dar que no, hago que te laves tu cosita",
+            "te amo, ya daleee",
+            "mmmmm",
+            "mi niña hermosa, ya",
+            "hueles a caca",
+            "te amo, se mi san valentin"
             ];
         document.getElementById("no").addEventListener("click", function() {
             let yesButton = document.getElementById("yes");
